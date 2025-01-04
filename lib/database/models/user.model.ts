@@ -11,7 +11,7 @@ export interface IUser extends Document {
   creditBalance: number;
 }
 
-const UserSchema = new Schema<IUser>({
+const UserSchema = new Schema({
   clerk: {
     type: String,
     required: true,
