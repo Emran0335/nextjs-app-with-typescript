@@ -30,7 +30,7 @@ export async function POST(req: Request) {
   // Get body
   const payload = await req.json();
   const body = JSON.stringify(payload);
-  console.log(body);
+
   // Create new Svix instance with secret
   const wh = new Webhook(WEBHOOK_SECRET);
 
