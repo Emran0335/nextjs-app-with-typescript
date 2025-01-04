@@ -4,7 +4,6 @@ import {
   SheetContent,
   SheetTitle,
   SheetTrigger,
-  VisuallyHidden,
 } from "@/components/ui/sheet";
 import { navLinks } from "@/constants";
 import { SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
